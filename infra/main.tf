@@ -42,12 +42,12 @@ resource "aws_security_group" "vibe_sg" {
 # Key pair (use an existing public key)
 resource "aws_key_pair" "vibe_key" {
   key_name   = "vibe-key"
-  public_key = file("C:/Users/ACER/.ssh/vibe-key.pub")
+  public_key = file("/home/sujal/.ssh/vibe-key.pub")
 }
 
 # EC2 instance
 resource "aws_instance" "vibe_server" {
-  ami                    = "ami-0e2c8caa4b6378d8c"  # Ubuntu 22.04 LTS, us-east-1 — verify this is current
+  ami                    = "ami-05a3e9423ae4d7a19"  # Ubuntu 22.04 LTS, us-east-1 — verify this is current
   instance_type          = "t2.micro"
   key_name               = aws_key_pair.vibe_key.key_name
   vpc_security_group_ids = [aws_security_group.vibe_sg.id]

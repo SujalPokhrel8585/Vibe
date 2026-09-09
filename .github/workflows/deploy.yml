@@ -42,7 +42,7 @@ jobs:
       - name: Build frontend
         working-directory: Vibe-frontend
         env:
-          VITE_API_URL: https://vibe-app.duckdns.org
+          VITE_API_URL: https://vibe-chat.duckdns.org
           VITE_TURN_USERNAME: ${{ secrets.VITE_TURN_USERNAME }}
           VITE_TURN_CREDENTIAL: ${{ secrets.VITE_TURN_CREDENTIAL }}
         run: |
