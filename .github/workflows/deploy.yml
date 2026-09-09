@@ -108,3 +108,5 @@ jobs:
             sudo systemctl reload nginx
 
             echo "Deployed image ID on this container: $(docker inspect --format='{{.Image}}' vibe-backend)"
+
+            # may need further lookout
