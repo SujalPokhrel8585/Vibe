@@ -2,7 +2,7 @@
 
 A full-stack real-time chat application with private & group messaging, reactions, file attachments, live notifications, typing indicators, online presence, and **WebRTC audio/video calling**.
 
-🔗 **Live demo:** [https://vibe-app.duckdns.org](https://vibe-app.duckdns.org)
+🔗 **Live demo:** [https://vibe-app.duckdns.org](https://vibe-app.duckdns.org) (http://vibe-chat.duckdns.org)
 
 ---
 
@@ -104,7 +104,7 @@ Vibe/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Gaurab-Tandukar/Vibe.git
+git clone https://github.com/SujalPokhrel8585/Vibe.git
 cd Vibe
 ```
 
